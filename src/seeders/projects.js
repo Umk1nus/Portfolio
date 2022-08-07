@@ -10,7 +10,7 @@ export default [
     tools: ['Github', 'Github-pages', 'Postman', 'VS Code', 'npm']
   },
   {
-    id: 1,
+    id: 2,
     title: 'Vue-Tailwind',
     status: 'Будет доработано',
     git: 'https://github.com/Umk1nus/vue-ts-tailwind',
@@ -45,5 +45,15 @@ export default [
     library: ['React.js', 'Next.js', 'axios', 'classnames'],
     tools: ['Github', 'Insomnia', 'VS Code', 'npm']
   },
+  {
+    id: 6,
+    title: 'Food-Shop',
+    status: 'Готово',
+    git: 'https://github.com/Umk1nus/Food-shop',
+    langs: ['JavaScript', 'CSS', 'HTML'],
+    library: ['jQuery'],
+    tools: ['Github']
+  },
+  
   
 ]

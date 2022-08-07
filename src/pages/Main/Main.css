@@ -1,4 +1,23 @@
 .main {
   background-color: #F2B634;
   color: #E7E8E2;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.main__about-title {
+  padding: 10px;
+  font-size: 36px;
+}
+.main__about-subtitle {
+  font-size: 24px;
 }
