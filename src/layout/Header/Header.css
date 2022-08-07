@@ -1,3 +1,26 @@
 .header {
-  display: flex
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.header__title, .header__navbar-menu-item:hover {
+  color: #F2B634;
+}
+
+.header__title {
+  font-size: 40px;
+}
+
+.header__navbar-menu-item {
+  font-size: 24px;
+  transition: 0.3s;
+  font-weight: 600;
+  padding: 15px 0px;
+  margin: 0px 15px;
+  color: #332B2B;
+}
+
+.header__navbar-menu-item:hover {
+  border-bottom: 4px solid #F2B634;
 }
